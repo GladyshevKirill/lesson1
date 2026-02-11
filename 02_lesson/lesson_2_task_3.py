@@ -3,4 +3,5 @@ def square():
     sq = a*a
     print(sq)
 
+
 square()

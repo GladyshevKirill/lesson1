@@ -1,5 +1,5 @@
-lst = [ '🍇', '🍑', '🍐', '🍊', '🍌', '🍎']
-l = len(lst)
+lst = ['🍇', '🍑', '🍐', '🍊', '🍌', '🍎']
+len = len(lst)
 
-print(lst[l-1])
 print(lst[0])
+print(lst[len-1])

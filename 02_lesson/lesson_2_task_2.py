@@ -7,4 +7,5 @@ def is_year_leap():
         znachenie = False
     print("год", year, ":", znachenie)
 
+
 is_year_leap()
