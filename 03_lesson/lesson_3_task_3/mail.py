@@ -1,4 +1,4 @@
-from addres import Addres
+
 
 class Mailing:
 
@@ -20,5 +20,3 @@ class Mailing:
     def get_track(self):
         return self.track
     
-addres1 = Addres('156987', 'Санкт-Петербург', 'Плесецкая', '10', '2670')
-addres2 = Addres('156345', 'Санкт-Петербург', 'Беговая', '3', '32')
