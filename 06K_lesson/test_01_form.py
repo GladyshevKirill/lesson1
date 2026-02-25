@@ -18,7 +18,7 @@ def test_form_validation_colors():
         driver.find_element(By.NAME, "address").send_keys("Ленина, 55-3")
         driver.find_element(By.NAME, "e-mail").send_keys("test@skypro.com")
         driver.find_element(By.NAME, "phone").send_keys("+7985899998787")
-        # zip-code оставляем пустым
+
         driver.find_element(By.NAME, "city").send_keys("Москва")
         driver.find_element(By.NAME, "country").send_keys("Россия")
         driver.find_element(By.NAME, "job-position").send_keys("QA")

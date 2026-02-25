@@ -44,3 +44,4 @@ def test_shop_total_is_correct():
         assert total_value == "$58.29"
     finally:
         driver.quit()
+        
